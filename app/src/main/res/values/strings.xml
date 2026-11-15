@@ -1,0 +1,158 @@
+<resources>
+    <string name="app_name">EnglishHelper</string>
+
+    <!-- Language Toggle -->
+    <string name="lang_chip_en">EN</string>
+    <string name="lang_chip_ar">عربي</string>
+    <string name="cd_language_toggle">Switch interface language</string>
+
+    <!-- Home Screen & Top Bar -->
+    <string name="home_subtitle">Offline Vocabulary Studio</string>
+    <string name="cd_settings_menu">Open settings and backup menu</string>
+    <string name="menu_switch_language">Switch to Arabic (RTL)</string>
+    <string name="menu_export_json">Export Backup (JSON)</string>
+    <string name="menu_share_json">Share Backup File</string>
+    <string name="menu_import_json">Import Backup (JSON)</string>
+    <string name="menu_enable_notifications">Enable Review Reminders</string>
+
+    <!-- Stats Dashboard -->
+    <string name="stat_total_topics">Topics</string>
+    <string name="stat_total_words">Words</string>
+    <string name="stat_due_reviews">Due Reviews</string>
+
+    <!-- Due Banner -->
+    <string name="due_banner_title_single">1 topic is due for review</string>
+    <string name="due_banner_title_plural">%1$d topics are due for review</string>
+    <string name="due_banner_subtitle">Complete a flashcard quiz to reset the countdown.</string>
+    <string name="action_review_now">Review Now</string>
+
+    <!-- Search -->
+    <string name="search_topics_hint">Search topics by title…</string>
+    <string name="search_words_hint">Search words, phonetics, or translations…</string>
+    <string name="cd_clear_search">Clear search</string>
+
+    <!-- Topics List & Cards -->
+    <string name="section_saved_topics">Saved Topics</string>
+    <string name="word_count_single">1 word</string>
+    <string name="word_count_plural">%1$d words</string>
+    <string name="mastered_count_label">%1$d/%2$d mastered</string>
+    <string name="timer_status_off">Timer Off</string>
+    <string name="timer_status_due">Due for review</string>
+    <string name="timer_status_in_days">Next in %1$dd %2$dh</string>
+    <string name="timer_status_in_hours">Next in %1$dh %2$dm</string>
+    <string name="timer_status_in_mins">Next in %1$dm</string>
+    <string name="cd_topic_options">Topic options</string>
+    <string name="action_rename">Rename</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+
+    <!-- Empty States -->
+    <string name="empty_topics_title">Build Your Personal Lexicon</string>
+    <string name="empty_topics_subtitle">Create your first topic deck to organize English words, phonetics, and spaced review reminders—100% offline.</string>
+    <string name="empty_topics_cta">Create First Topic</string>
+    <string name="empty_search_title">No matching results</string>
+    <string name="empty_search_subtitle">Try a different keyword or clear your search filter.</string>
+    <string name="empty_words_title">No words in this topic yet</string>
+    <string name="empty_words_subtitle">Tap the + button to add words with pronunciation, translation, and example sentences.</string>
+
+    <!-- Create / Rename / Delete Topic Modals -->
+    <string name="fab_new_topic">New Topic</string>
+    <string name="dialog_new_topic_title">Create New Topic</string>
+    <string name="dialog_rename_topic_title">Rename Topic</string>
+    <string name="field_topic_title">Topic Title</string>
+    <string name="field_topic_title_hint">e.g. Academic Verbs, Travel Essentials</string>
+    <string name="error_topic_title_required">Please enter a topic title</string>
+    <string name="label_review_schedule">Review Reminder Interval</string>
+    <string name="dialog_delete_topic_title">Delete Topic?</string>
+    <string name="dialog_delete_topic_message">This will permanently remove "%1$s" and all its saved words.</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_create">Create</string>
+    <string name="action_save">Save</string>
+    <string name="action_confirm_delete">Delete</string>
+
+    <!-- Topic Details Screen -->
+    <string name="cd_navigate_back">Navigate back</string>
+    <string name="review_timer_label">Review Timer</string>
+    <string name="timer_every_day">Every 1 day</string>
+    <string name="timer_every_days">Every %1$d days</string>
+    <string name="action_configure_timer">Configure</string>
+    <string name="topic_due_banner_title">Scheduled review is due!</string>
+    <string name="topic_due_banner_subtitle">Finish a flashcard session to restart your %1$s cycle.</string>
+    <string name="btn_start_quiz">Start Quiz / Flashcards</string>
+    <string name="hint_add_words_for_quiz">Add at least 1 word to start a flashcard session</string>
+    <string name="fab_add_word">Add Word</string>
+
+    <!-- Timer Picker Dialog -->
+    <string name="dialog_timer_title">Recurring Review Timer</string>
+    <string name="dialog_timer_subtitle">Receive a local reminder and in-app alert when this topic is due for review.</string>
+    <string name="timer_opt_off">Off</string>
+    <string name="timer_opt_1d">1 Day</string>
+    <string name="timer_opt_2d">2 Days</string>
+    <string name="timer_opt_3d">3 Days</string>
+    <string name="timer_opt_7d">7 Days</string>
+    <string name="timer_opt_custom">Custom</string>
+    <string name="field_custom_days">Custom interval (days)</string>
+    <string name="error_invalid_days">Enter a number between 1 and 365</string>
+
+    <!-- Add / Edit Word Modal -->
+    <string name="dialog_add_word_title">Add New Word</string>
+    <string name="dialog_edit_word_title">Edit Word</string>
+    <string name="field_word_required">Word *</string>
+    <string name="field_word_hint">e.g. Serendipity</string>
+    <string name="error_word_required">Word cannot be empty</string>
+    <string name="field_phonetics_optional">Pronunciation / Phonetics (Optional)</string>
+    <string name="field_phonetics_hint">e.g. /ˌsɛr.ənˈdɪp.ə.ti/</string>
+    <string name="field_translation_optional">Translation (Optional)</string>
+    <string name="field_translation_hint">e.g. مصادفة سعيدة</string>
+    <string name="field_example_optional">Example Sentence (Optional)</string>
+    <string name="field_example_hint">e.g. Meeting her was pure serendipity.</string>
+    <string name="btn_listen_pronunciation">Pronounce Word</string>
+    <string name="cd_speak_word">Pronounce word aloud</string>
+    <string name="dialog_delete_word_title">Delete Word?</string>
+    <string name="dialog_delete_word_message">Remove "%1$s" from this topic?</string>
+    <string name="badge_mastered">Mastered</string>
+
+    <!-- Question Count Selector Dialog -->
+    <string name="dialog_quiz_setup_title">Flashcard Session Setup</string>
+    <string name="dialog_quiz_setup_subtitle">Choose how many cards to review in this session:</string>
+    <string name="quiz_count_all">All (%1$d)</string>
+    <string name="quiz_prioritize_unmastered">Prioritize unmastered words first</string>
+    <string name="btn_begin_session">Begin Session</string>
+
+    <!-- Flashcard Quiz Screen -->
+    <string name="quiz_title">Flashcard Quiz</string>
+    <string name="quiz_card_counter">Card %1$d of %2$d</string>
+    <string name="quiz_tap_to_reveal">Tap card to reveal translation &amp; example</string>
+    <string name="quiz_tap_to_hide">Tap card to flip back</string>
+    <string name="quiz_label_translation">Translation</string>
+    <string name="quiz_label_example">Example Sentence</string>
+    <string name="quiz_no_translation">No translation saved</string>
+    <string name="quiz_no_example">No example sentence saved</string>
+    <string name="btn_previous">Previous</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_finish">Finish</string>
+    <string name="btn_mark_mastered">Mark Mastered</string>
+    <string name="btn_mastered_done">Mastered</string>
+    <string name="btn_speak_example">Listen to Example</string>
+
+    <!-- Quiz Completed Summary -->
+    <string name="quiz_complete_title">Session Complete!</string>
+    <string name="quiz_complete_subtitle">You reviewed %1$d cards in "%2$s".</string>
+    <string name="quiz_complete_mastered_stat">%1$d of %2$d marked mastered</string>
+    <string name="quiz_complete_timer_reset">Review timer reset for the next %1$d-day cycle.</string>
+    <string name="btn_back_to_topic">Back to Topic</string>
+    <string name="btn_restart_quiz">Practice Again</string>
+
+    <!-- Export / Import & Notifications Feedback -->
+    <string name="msg_export_success">Backup exported (%1$d topics, %2$d words).</string>
+    <string name="msg_export_failed">Could not export backup file.</string>
+    <string name="msg_import_success">Imported %1$d topics and %2$d words safely.</string>
+    <string name="msg_import_invalid">Invalid or unsupported JSON backup file.</string>
+    <string name="msg_tts_unavailable">Text-to-Speech voice is not available on this device.</string>
+    <string name="msg_notifications_enabled">Review reminder notifications enabled.</string>
+    <string name="msg_notifications_denied">Notification permission denied. In-app banners will still alert you.</string>
+    <string name="notif_channel_name">Vocabulary Review Reminders</string>
+    <string name="notif_channel_desc">Local offline reminders when a vocabulary topic is due for review.</string>
+    <string name="notif_due_title">Time to review: %1$s</string>
+    <string name="notif_due_body">Your scheduled flashcard review is ready. Tap to practice now.</string>
+</resources>

@@ -1,0 +1,158 @@
+<resources>
+    <string name="app_name">EnglishHelper</string>
+
+    <!-- Language Toggle -->
+    <string name="lang_chip_en">EN</string>
+    <string name="lang_chip_ar">عربي</string>
+    <string name="cd_language_toggle">تبديل لغة الواجهة</string>
+
+    <!-- Home Screen & Top Bar -->
+    <string name="home_subtitle">مختبر المفردات بدون إنترنت</string>
+    <string name="cd_settings_menu">فتح قائمة الإعدادات والنسخ الاحتياطي</string>
+    <string name="menu_switch_language">التبديل إلى الإنجليزية (LTR)</string>
+    <string name="menu_export_json">تصدير نسخة احتياطية (JSON)</string>
+    <string name="menu_share_json">مشاركة ملف النسخة الاحتياطية</string>
+    <string name="menu_import_json">استيراد نسخة احتياطية (JSON)</string>
+    <string name="menu_enable_notifications">تفعيل إشعارات المراجعة</string>
+
+    <!-- Stats Dashboard -->
+    <string name="stat_total_topics">المواضيع</string>
+    <string name="stat_total_words">الكلمات</string>
+    <string name="stat_due_reviews">مستحقة للمراجعة</string>
+
+    <!-- Due Banner -->
+    <string name="due_banner_title_single">يوجد موضوع واحد مستحق للمراجعة</string>
+    <string name="due_banner_title_plural">توجد %1$d مواضيع مستحقة للمراجعة</string>
+    <string name="due_banner_subtitle">أكمل جلسة البطاقات التعليمية لإعادة ضبط المؤقت.</string>
+    <string name="action_review_now">راجع الآن</string>
+
+    <!-- Search -->
+    <string name="search_topics_hint">ابحث في المواضيع بالعنوان…</string>
+    <string name="search_words_hint">ابحث عن كلمة أو نطق صوتي أو ترجمة…</string>
+    <string name="cd_clear_search">مسح البحث</string>
+
+    <!-- Topics List & Cards -->
+    <string name="section_saved_topics">المواضيع المحفوظة</string>
+    <string name="word_count_single">كلمة واحدة</string>
+    <string name="word_count_plural">%1$d كلمات</string>
+    <string name="mastered_count_label">تم إتقان %1$d/%2$d</string>
+    <string name="timer_status_off">المؤقت متوقف</string>
+    <string name="timer_status_due">مستحق للمراجعة</string>
+    <string name="timer_status_in_days">التالي بعد %1$dي %2$dس</string>
+    <string name="timer_status_in_hours">التالي بعد %1$dس %2$dد</string>
+    <string name="timer_status_in_mins">التالي بعد %1$dد</string>
+    <string name="cd_topic_options">خيارات الموضوع</string>
+    <string name="action_rename">إعادة تسمية</string>
+    <string name="action_delete">حذف</string>
+    <string name="action_edit">تعديل</string>
+
+    <!-- Empty States -->
+    <string name="empty_topics_title">أنشئ قاموسك الشخصي</string>
+    <string name="empty_topics_subtitle">أضف موضوعك الأول لتنظيم الكلمات الإنجليزية، النطق الصوتي، وتذكيرات المراجعة المتباعدة بدون إنترنت.</string>
+    <string name="empty_topics_cta">إنشاء أول موضوع</string>
+    <string name="empty_search_title">لا توجد نتائج مطابقة</string>
+    <string name="empty_search_subtitle">جرّب كلمة بحث مختلفة أو امسح الفلتر.</string>
+    <string name="empty_words_title">لا توجد كلمات في هذا الموضوع بعد</string>
+    <string name="empty_words_subtitle">اضغط على زر + لإضافة كلمات مع النطق والترجمة وجمل الأمثلة.</string>
+
+    <!-- Create / Rename / Delete Topic Modals -->
+    <string name="fab_new_topic">موضوع جديد</string>
+    <string name="dialog_new_topic_title">إنشاء موضوع جديد</string>
+    <string name="dialog_rename_topic_title">إعادة تسمية الموضوع</string>
+    <string name="field_topic_title">عنوان الموضوع</string>
+    <string name="field_topic_title_hint">مثال: Academic Verbs، Travel Essentials</string>
+    <string name="error_topic_title_required">يرجى إدخال عنوان الموضوع</string>
+    <string name="label_review_schedule">تكرار تذكير المراجعة</string>
+    <string name="dialog_delete_topic_title">حذف الموضوع؟</string>
+    <string name="dialog_delete_topic_message">سيؤدي هذا إلى حذف "%1$s" وجميع الكلمات المحفوظة بداخله نهائياً.</string>
+    <string name="action_cancel">إلغاء</string>
+    <string name="action_create">إنشاء</string>
+    <string name="action_save">حفظ</string>
+    <string name="action_confirm_delete">حذف</string>
+
+    <!-- Topic Details Screen -->
+    <string name="cd_navigate_back">الرجوع</string>
+    <string name="review_timer_label">مؤقت المراجعة</string>
+    <string name="timer_every_day">كل يوم واحد</string>
+    <string name="timer_every_days">كل %1$d أيام</string>
+    <string name="action_configure_timer">ضبط</string>
+    <string name="topic_due_banner_title">حان موعد المراجعة المجدولة!</string>
+    <string name="topic_due_banner_subtitle">أكمل جلسة بطاقات تعليمية لإعادة تشغيل دورة (%1$s).</string>
+    <string name="btn_start_quiz">ابدأ الاختبار / البطاقات التعليمية</string>
+    <string name="hint_add_words_for_quiz">أضف كلمة واحدة على الأقل لبدء جلسة البطاقات</string>
+    <string name="fab_add_word">إضافة كلمة</string>
+
+    <!-- Timer Picker Dialog -->
+    <string name="dialog_timer_title">مؤقت المراجعة المتكرر</string>
+    <string name="dialog_timer_subtitle">استلم تنبيهاً محلياً وإشعاراً داخل التطبيق عندما يحين موعد مراجعة هذا الموضوع.</string>
+    <string name="timer_opt_off">إيقاف</string>
+    <string name="timer_opt_1d">يوم 1</string>
+    <string name="timer_opt_2d">يومان</string>
+    <string name="timer_opt_3d">3 أيام</string>
+    <string name="timer_opt_7d">7 أيام</string>
+    <string name="timer_opt_custom">مخصص</string>
+    <string name="field_custom_days">الفترة المخصصة (بالأيام)</string>
+    <string name="error_invalid_days">أدخل رقماً بين 1 و 365</string>
+
+    <!-- Add / Edit Word Modal -->
+    <string name="dialog_add_word_title">إضافة كلمة جديدة</string>
+    <string name="dialog_edit_word_title">تعديل الكلمة</string>
+    <string name="field_word_required">الكلمة *</string>
+    <string name="field_word_hint">مثال: Serendipity</string>
+    <string name="error_word_required">لا يمكن ترك حقل الكلمة فارغاً</string>
+    <string name="field_phonetics_optional">النطق الصوتي / الفونيتيكس (اختياري)</string>
+    <string name="field_phonetics_hint">مثال: /ˌsɛr.ənˈdɪp.ə.ti/</string>
+    <string name="field_translation_optional">الترجمة (اختياري)</string>
+    <string name="field_translation_hint">مثال: مصادفة سعيدة</string>
+    <string name="field_example_optional">جملة مثال (اختياري)</string>
+    <string name="field_example_hint">مثال: Meeting her was pure serendipity.</string>
+    <string name="btn_listen_pronunciation">نطق الكلمة</string>
+    <string name="cd_speak_word">نطق الكلمة صوتياً</string>
+    <string name="dialog_delete_word_title">حذف الكلمة؟</string>
+    <string name="dialog_delete_word_message">هل تريد إزالة "%1$s" من هذا الموضوع؟</string>
+    <string name="badge_mastered">متقنة</string>
+
+    <!-- Question Count Selector Dialog -->
+    <string name="dialog_quiz_setup_title">إعداد جلسة البطاقات</string>
+    <string name="dialog_quiz_setup_subtitle">اختر عدد البطاقات التي ترغب في اختبارها في هذه الجلسة:</string>
+    <string name="quiz_count_all">الكل (%1$d)</string>
+    <string name="quiz_prioritize_unmastered">تقديم الكلمات غير المتقنة أولاً</string>
+    <string name="btn_begin_session">بدء الجلسة</string>
+
+    <!-- Flashcard Quiz Screen -->
+    <string name="quiz_title">اختبار البطاقات</string>
+    <string name="quiz_card_counter">بطاقة %1$d من %2$d</string>
+    <string name="quiz_tap_to_reveal">اضغط على البطاقة لعرض الترجمة والمثال</string>
+    <string name="quiz_tap_to_hide">اضغط على البطاقة للعودة</string>
+    <string name="quiz_label_translation">الترجمة</string>
+    <string name="quiz_label_example">جملة مثال</string>
+    <string name="quiz_no_translation">لا توجد ترجمة محفوظة</string>
+    <string name="quiz_no_example">لا توجد جملة مثال محفوظة</string>
+    <string name="btn_previous">السابق</string>
+    <string name="btn_next">التالي</string>
+    <string name="btn_finish">إنهاء</string>
+    <string name="btn_mark_mastered">تحديد كمتقنة</string>
+    <string name="btn_mastered_done">متقنة</string>
+    <string name="btn_speak_example">استمع للمثال</string>
+
+    <!-- Quiz Completed Summary -->
+    <string name="quiz_complete_title">اكتملت الجلسة!</string>
+    <string name="quiz_complete_subtitle">لقد راجعت %1$d بطاقات في "%2$s".</string>
+    <string name="quiz_complete_mastered_stat">تم إتقان %1$d من %2$d</string>
+    <string name="quiz_complete_timer_reset">تم إعادة ضبط مؤقت المراجعة للدورة القادمة (%1$d أيام).</string>
+    <string name="btn_back_to_topic">العودة للموضوع</string>
+    <string name="btn_restart_quiz">ممارسة مجدداً</string>
+
+    <!-- Export / Import & Notifications Feedback -->
+    <string name="msg_export_success">تم تصدير النسخة الاحتياطية (%1$d مواضيع، %2$d كلمات).</string>
+    <string name="msg_export_failed">تعذر تصدير ملف النسخة الاحتياطية.</string>
+    <string name="msg_import_success">تم استيراد %1$d مواضيع و %2$d كلمات بأمان.</string>
+    <string name="msg_import_invalid">ملف JSON غير صالح أو غير مدعوم.</string>
+    <string name="msg_tts_unavailable">خدمة النطق الصوتي غير متوفرة على هذا الجهاز.</string>
+    <string name="msg_notifications_enabled">تم تفعيل إشعارات تذكير المراجعة.</string>
+    <string name="msg_notifications_denied">تم رفض إذن الإشعارات. ستستمر تنبيهات التطبيق الداخلية بالعمل.</string>
+    <string name="notif_channel_name">تذكيرات مراجعة المفردات</string>
+    <string name="notif_channel_desc">تذكيرات محلية بدون إنترنت عند استحقاق مراجعة أحد المواضيع.</string>
+    <string name="notif_due_title">حان وقت المراجعة: %1$s</string>
+    <string name="notif_due_body">مراجعتك المجدولة للبطاقات جاهزة. اضغط للتدرب الآن.</string>
+</resources>

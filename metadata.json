@@ -1,0 +1,6 @@
+{
+  "name": "EnglishHelper",
+  "description": "Offline-first bilingual English vocabulary trainer with Room storage, spaced review timers, Text-to-Speech, flashcards, and JSON backup.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
