@@ -1,9 +1,14 @@
+
 name: Build APK
 
 on:
   push:
     branches:
       - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
 
 jobs:
   build:
@@ -17,19 +22,35 @@ jobs:
         uses: actions/setup-java@v4
         with:
           distribution: temurin
-          java-version: 17
+          java-version: '17'
 
       - name: Setup Android SDK
-        uses: android-actions/setup-android@v3
+        uses: android-actions/setup-android@v4
+        with:
+          packages: platform-tools
+          accept-android-sdk-licenses: true
+          log-accepted-android-sdk-licenses: false
+
+      - name: Install Android SDK Platform
+        run: |
+          sdkmanager --install \
+            "platforms;android-36.1" \
+            "build-tools;36.0.0"
 
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v4
 
+      - name: Check Gradle version
+        run: ./gradlew --version
+
       - name: Build Debug APK
-        run: gradle assembleDebug --stacktrace
+        run: |
+          chmod +x ./gradlew
+          ./gradlew --no-daemon assembleDebug --stacktrace
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: app-debug-apk
           path: app/build/outputs/apk/debug/app-debug.apk
+          if-no-files-found: error
