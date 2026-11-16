@@ -31,22 +31,22 @@ jobs:
           accept-android-sdk-licenses: true
           log-accepted-android-sdk-licenses: false
 
-      - name: Install Android SDK Platform
+      - name: Install Android SDK
         run: |
           sdkmanager --install \
             "platforms;android-36.1" \
             "build-tools;36.0.0"
 
-      - name: Setup Gradle
+      - name: Setup Gradle 9.3.1
         uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '9.3.1'
 
-      - name: Check Gradle version
-        run: ./gradlew --version
+      - name: Check Gradle
+        run: gradle --version
 
       - name: Build Debug APK
-        run: |
-          chmod +x ./gradlew
-          ./gradlew --no-daemon assembleDebug --stacktrace
+        run: gradle --no-daemon assembleDebug --stacktrace
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
